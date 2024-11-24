@@ -61,13 +61,13 @@ fun TampilanHeader() {
             Box (
                 contentAlignment = Alignment.BottomEnd
             ) {
-                Image(painterResource(R.drawable.umy),
+                Image(painterResource(R.drawable.logoumy),
                     contentDescription = null)
 
                 Icon(Icons.Default.Done,
                     contentDescription = null,
                     modifier = Modifier
-                        .size(28.dp)
+                        .size(10.dp)
                         .background(color = Color.Red, shape = CircleShape),
                     tint = Color.DarkGray,
                     )
